@@ -35,10 +35,12 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .bb1a {
   width: 70%;
   height: 10%;
   background-color: var(--building-color1);
+  background: linear-gradient(--building-color1, --window-color1);
 }
 .bb1b {
   width: 80%;
