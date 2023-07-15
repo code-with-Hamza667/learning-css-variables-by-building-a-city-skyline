@@ -26,6 +26,7 @@ body {
   top: 0;
 }
 
+
 .bb1 {
   width: 10%;
   height: 70%;
@@ -81,7 +82,6 @@ body {
   height: 60%;
   background-color: var(--building-color4);
 }
-
 .fb2 {
   width: 10%;
   height: 40%;
@@ -98,12 +98,16 @@ body {
   width: 8%;
   height: 45%;
   background-color: var(--building-color1);
+  position: relative;
+  left: 10%;
 }
 
 .fb5 {
   width: 10%;
   height: 33%;
   background-color: var(--building-color2);
+  position: relative;
+  right: 10%;
 }
 
 .fb6 {
