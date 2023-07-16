@@ -7,6 +7,7 @@
   --window-color2: #8cd9b3;
   --window-color3: #d98cb3;
 }
+
 * {
   border: 1px solid black;
   box-sizing: border-box;
@@ -91,7 +92,12 @@ body {
 .bb3 {
   width: 10%;
   height: 55%;
-  background-color: var(--building-color3);
+  background: repeating-linear-gradient(
+      90deg,
+      var(--building-color3),
+      var(--building-color3),
+      var(--window-color3) 15%
+    );
 }
 
 .bb4 {
@@ -149,6 +155,7 @@ body {
   --window-color2: #8cd9b3;
   --window-color3: #d98cb3;
 }
+
 * {
   border: 1px solid black;
   box-sizing: border-box;
@@ -233,7 +240,12 @@ body {
 .bb3 {
   width: 10%;
   height: 55%;
-  background-color: var(--building-color3);
+  background: repeating-linear-gradient(
+      90deg,
+      var(--building-color3),
+      var(--building-color3),
+      var(--window-color3) 15%
+    );
 }
 
 .bb4 {
