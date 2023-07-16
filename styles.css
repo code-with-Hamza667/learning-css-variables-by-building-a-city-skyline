@@ -6,6 +6,7 @@
   --window-color1: black;
   --window-color2: #8cd9b3;
   --window-color3: #d98cb3;
+  --window-color4: #8cb3d9;
 }
 
 * {
@@ -29,13 +30,16 @@ body {
   top: 0;
 }
 
+.building-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 .bb1 {
   width: 10%;
   height: 70%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .bb1a {
@@ -163,4 +167,4 @@ body {
   height: 38%;
   background-color: var(--building-color3);
 }
-      
+    
